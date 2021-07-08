@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img {
+    height: 32px;
+    filter: invert(0);
+}
+
+#navbar {
+    /* background-color: white; */
+    padding: 0px 0px;
+    background-color: #f19179;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 21px 1px;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-family: 'Pattaya', sans-serif;
+    padding: 13px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#navbar li a:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#introSection {
+    height: 450px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Newsreader', serif;
+    justify-content: center;
+    font-size: 65px;
+    align-items: center;
+    color: white;
+    background-color: red;
+    background: url(../static/dance.jpg) center/cover no-repeat;
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+}
+
+#missionSection {
+    height: 320px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+    font-family: 'Newsreader', serif;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 22px;
+    height: 210px;
+    display: inline-block;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0 13px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 112px;
+    margin: 12px 12px;
+    padding: 0 14px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 37px;
+}
+
+.card-content p {
+    font-size: 20px;
+}
+
+#sponserSection {
+    height: 300px;
+    background-color: #e9aaaa6c;
+}
+
+#sponserSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+    font-family: 'Newsreader', serif;
+}
+
+#sponsor {
+    height: 140px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.spImage {
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Newsreader', serif;
+}
